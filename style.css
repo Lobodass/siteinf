@@ -1,3 +1,17 @@
 body{
     background-color: azure;
 }
+.photo{
+    display: flex;
+    padding-top: 100px;
+}
+.rrr{
+    padding-left: 100px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    display: flex;
+    padding-left: 700px;
+    padding-bottom: 600px;
+}
