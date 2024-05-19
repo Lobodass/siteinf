@@ -1,8 +1,28 @@
 let itemsArray = [
-   'Газонокосарка 43',
-   'Електричний тример 110',
-   'Електрична газонокосарка 32',
-   'Акумуляторний оприскувач 12 N',
+  {
+   firstName: "Віталій",
+   lastName : "Шатківський",
+   age: 43,
+   subject: "CS",
+   photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+   url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+  },
+  {
+   firstName: "Наталія",
+   lastName : "Венцель",
+   age: 18,
+   subject: "Адміністратор",
+   photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+   url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
+  },
+  {
+   firstName: "Наталія",
+   lastName : "Кучер",
+   age: 18,
+   subject: "Фізика",
+   photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+   url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+  },
 ]
 
 //Отримання елементу з ідентифікатором items
@@ -11,17 +31,27 @@ let itemsDiv = document.getElementById("items");
 //Перевірка існування блоку
 if (itemsDiv) {
    //Створення блоків по кількості елементів масиву
-   itemsArray.forEach((item,index) => {
+   itemsArray
+   .forEach((item,index) => {
+      
+   
        // console.log(item)
        //Виводимо на веб сторінку елемент масиву в блок з класом item
        itemsDiv.innerHTML +=
            `
        <div class = "item">
-     <h2>Товар №${index}</h2>
-     <p>${item}</p>
-     </div>
-     `
-   })
+       <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
+       <p>${item.firstName} ${item.lastName}</p>
+       <p> Предмет:${item.subject} </p>
+       <p>img scr="${item.photo}"  class="item-image"></p>
+       <p>a href="${item.url}" target="_blanc" class="bonus price">Профіль</a></p>
+       <p>a href="malito:${item.email}?subject=Питання&body=Добрий день!" target="_blanc" class="price">Написати</a></p>
+       </div>
+       .
+
+
+ 
+   
 
 } else {
    //Повідомлення про не знайдений блок
