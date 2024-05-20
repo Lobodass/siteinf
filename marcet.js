@@ -23,113 +23,41 @@
 
 let itemsArray = [
    {
-       firstName: "Віталій",
-       lastName: "Шатківський",
-       age: 43,
-       subject: "Інформатика",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
-       email: "pzs_shvm@ztu.edu.ua",
+       title: "Мотокоса 43",
+       image: "https://hotline.ua/img/tx/319/3193450945.jpg",
+       mono: 43,
+       pb: 86,
+       price_started: "5 499",
+       price_discount: "4 497",
+       price_coupon: "4 395",
    },
    {
-       firstName: "Наталія",
-       lastName: "Венцель",
-       age: 18,
-       subject: "Директор",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
-       email: "n.ventsel@ukr.net",
-   },
-   {
-       firstName: "Наталія",
-       lastName: "Кучер",
-       age: 18,
-       subject: "Фізика",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg", 
-       url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
-       email: "lic_knv@ztu.edu.ua",
-   },
-   {
-       firstName: "Анжела",
-       lastName: "Лознюк",
-       
-       subject: "Українська мова, література",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
-       email: "lic_lal@ztu.edu.ua",
-   },
-   {
-       firstName: "Ірина",
-       lastName: "Боровська-Карандюк",
-       
-       subject: "Українська мова, література, зарубіжна література",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-       email: "lic_bia@ztu.edu.ua",
-   },
-   {
-       firstName: "Василь",
-       lastName: "Бабій",
-       
-       subject: "Фізична культура",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-       email: "lic_bvd@ztu.edu.ua",
-   },
-   {
-       firstName: "Тарас",
-       lastName: "Савінков",
-       
-       subject: "Англійська мова",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
-       email: "lic_ste@ztu.edu.ua",
-   },
-   {
-       firstName: "Вікторія",
-       lastName: "Нелипович",
-       
-       subject: "Математика",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
-       email: "lic_nvv@ztu.edu.ua",
-   },
-   {
-       firstName: "Іван",
-       lastName: "Севрук",
-       
-       subject: "Захист України",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
-       email: "lic_sih@ztu.edu.ua",
-   },
-   {
-       firstName: "Діна",
-       lastName: "Варганова",
-       
-       subject: "Інформатика",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/varhanova-dina-oleksandrivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/borysyuk-o-m/",
-       email: "",
-   },
-   {
-       firstName: "Олена",
-       lastName: "Геча",
-       
-       subject: "Історія",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
-       email: "lic_hoa@ztu.edu.ua",
-   },
-   {
-       firstName: "Ірина",
-       lastName: "Глібко",
-       
-       subject: "Англійська мова",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/hlibko-iryna-anatoliyivna/",
-       email: "lic_gia@ztu.edu.ua",
-   },
+      title: "Електричний тример 110",
+      image: "https://listasad.com.ua/images/0zYEp3pYvDHnhgOHNybNOFpXgsh6Iiz2f6J3xDKiNMs/w:600/bG9jYWw/6Ly8vbGlzdGFzYWQuY29tLnVhL3B1YmxpY19odG1sL3N0b3JhZ2UvYXBwL21lZGlhLzI3OTY1L090bWlUSTVyYkFWeTJZYjNDUGE3WUtNWDVid1laNi1tZXRhWTJGMFlXeHZaMTl2Y21sbmFXNWZNamd5TkRFeExtcHdadz09LS5qcGc.webp",
+      mono: 43,
+      pb: 80,
+      price_started: "4 497",
+      price_discount: "3 498",
+      price_coupon: "3 396",
+  },
+  {
+   title: "Електрична газонокосарка 32",
+   image: "https://machtz.com.ua/files/resized/products/000024307_5be968a4-80ad-4b5b-b7ca-f04e9b0d4452-800x800.800x850.jpg",
+   mono: 43,
+   pb: 87,
+   price_started: "4 497",
+   price_discount: "3 297",
+   price_coupon: "3 195",
+},
+{
+   title: "Акумуляторний обприскувач 12 N",
+   image: "https://top-zakaz.com.ua/content/images/33/480x480l50nn0/41112408796332.png",
+   mono: 43,
+   pb: 47,
+   price_started: "2 190",
+   price_discount: "1 698",
+   price_coupon: "1 596",
+},
 ]
 
 // Отримання елементу з ідентифікатором items
@@ -162,21 +90,38 @@ if (itemsDiv) {
    //     itemsDiv.innerHTML += '<div class = item></div>'
    // }
    //Виведення елементів масиву
-   itemsArray.forEach((item, index) => {
+   itemsArray
+   .forEach((item, index) => {
        // console.log(item)
        // itemsDiv.innerText += item
        // itemsDiv.innerHTML += `<div class = "item">${item}</div>`
        //Виводимо на веб сторінку елемент масиву в блок з класом item
        itemsDiv.innerHTML += 
        `
-       <div class = "item">
-           <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
-           <p>${item.firstName} ${item.lastName}</p>
-           <p>Предмет: ${item.subject}</p>
-           <p><img src = "${item.photo}" class = "item-image"></p>
-           <p><a href = ${item.url}" target = "_blank" class = "bonus price">Профіль</a></p>
-           <p><a href = "mailto:${item.email}?subject=Питання&body=Доброго дня" target = "_blank" class = "price">Написати </a></p>
+       <div class="item">
+       <!-- Блок назва товару -->
+       <div class="item-title">${item.title}</div>
+       <!-- Блок зображення товару -->
+       <div class="item-image"> 
+           <img src="${item.image}" class="item-image">
        </div>
+       <!-- Блок з оплатою частинами -->
+       <div class="parts-pay">
+           <div> <img src="img/mono-lapka.png" alt="">${item.mono}</div>
+           <div> <img src="img/pb.png" alt="">${item.pb}</div>
+       </div>
+       <!-- Блок ціни -->
+       <div class="price">
+           <div> <span> ${item.price_started}</span><sup>грн</sup></div>
+           <div> <span> ${item.price_discount}</span><sup>грн</sup></div>
+       </div>
+       <!-- Блок бонусної ціни -->
+       <div class="price bonus">
+           <div>ціна за купоном</div>
+           <div><span> ${item.price_coupon}</span><sup>грн</sup></div>
+       </div>
+   </div>
+   
        `
    })
 } else {

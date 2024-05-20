@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1, 100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    margin: 0px;
+    margin: px;
     padding: 0px;
     box-sizing: border-box;
 
@@ -43,7 +43,7 @@ content {
 }
 
 .item {
-    min-width: 200px;
+    width: 200px;
     min-height: 400px;
     margin-bottom: 10px;
     padding: 10px;
@@ -89,10 +89,11 @@ content {
     border-radius: 5px;
     padding: 5px 10px;
     display: flex;
+    justify-content:space-between;
 }
 
 .price div:first-child {
-    width: 100px;
+    width: 80px;
     font-size: 20px;
 }
 
@@ -122,7 +123,7 @@ content {
 }
 
 .bonus div:first-child {
-    width: 100px;
+    width: 80px;
     font-size: 14px;
 }
 
