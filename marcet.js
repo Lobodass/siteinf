@@ -52,7 +52,7 @@ let itemsArray = [
    {
        firstName: "Анжела",
        lastName: "Лознюк",
-       age: 18,
+       
        subject: "Українська мова, література",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
@@ -61,7 +61,7 @@ let itemsArray = [
    {
        firstName: "Ірина",
        lastName: "Боровська-Карандюк",
-       age: 18,
+       
        subject: "Українська мова, література, зарубіжна література",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
@@ -70,7 +70,7 @@ let itemsArray = [
    {
        firstName: "Василь",
        lastName: "Бабій",
-       age: 18,
+       
        subject: "Фізична культура",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
@@ -79,7 +79,7 @@ let itemsArray = [
    {
        firstName: "Тарас",
        lastName: "Савінков",
-       age: 18,
+       
        subject: "Англійська мова",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
@@ -88,7 +88,7 @@ let itemsArray = [
    {
        firstName: "Вікторія",
        lastName: "Нелипович",
-       age: 18,
+       
        subject: "Математика",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
@@ -97,25 +97,25 @@ let itemsArray = [
    {
        firstName: "Іван",
        lastName: "Севрук",
-       age: 18,
+       
        subject: "Захист України",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/sevruk-i-h/",
        email: "lic_sih@ztu.edu.ua",
    },
    {
-       firstName: "Олена",
-       lastName: "Чугунова",
-       age: 18,
-       subject: "Математика",
-       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/chuhunova-olena-vasylivna-683x1024.jpg",
-       url: "https://lyceum.ztu.edu.ua/team/chuhunova-o-v/",
-       email: "lic_chov@ztu.edu.ua",
+       firstName: "Діна",
+       lastName: "Варганова",
+       
+       subject: "Інформатика",
+       photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/varhanova-dina-oleksandrivna-683x1024.jpg",
+       url: "https://lyceum.ztu.edu.ua/team/borysyuk-o-m/",
+       email: "",
    },
    {
        firstName: "Олена",
        lastName: "Геча",
-       age: 18,
+       
        subject: "Історія",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
        url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
@@ -124,7 +124,7 @@ let itemsArray = [
    {
        firstName: "Ірина",
        lastName: "Глібко",
-       age: 18,
+       
        subject: "Англійська мова",
        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/01/hlibko-iryna-anatoliyevna.jpg",
        url: "https://lyceum.ztu.edu.ua/team/hlibko-iryna-anatoliyivna/",
